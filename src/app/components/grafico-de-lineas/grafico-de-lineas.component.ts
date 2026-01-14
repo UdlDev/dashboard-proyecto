@@ -4,6 +4,7 @@ import { ChartData, ChartOptions } from 'chart.js';
 
 export type GraficoDato = { label: string; value: number };
 
+
 @Component({
   selector: 'app-grafico-de-lineas',
   standalone: true,

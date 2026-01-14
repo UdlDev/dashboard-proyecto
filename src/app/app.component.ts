@@ -14,7 +14,7 @@ import { GraficoDeLineasComponent } from './components/grafico-de-lineas/grafico
 })
 export class AppComponent implements OnInit {
 
-  title = 'Dashboard de Proyectos';
+  title = 'Dashboard de Proyectos v2';
 
   // 1) Estado para almacenar las métricas de los proyectos.
   projectMetrics: ProjectMetric[] = [];
