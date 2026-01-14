@@ -3,7 +3,7 @@ import { BaseChartDirective } from 'ng2-charts';
 import { ChartData, ChartOptions } from 'chart.js';
 
 export type GraficoDato = { label: string; value: number };
-
+//continuar aqui..
 @Component({
   selector: 'app-grafico-de-barras',
   standalone: true,
@@ -13,7 +13,6 @@ export type GraficoDato = { label: string; value: number };
 })
 export class GraficoDeBarrasComponent implements OnChanges {
 
-  // ✅ Inputs requeridos por la consigna
   @Input() titulo: string = '';
   @Input() datos: GraficoDato[] = [];
 
